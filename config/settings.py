@@ -1,0 +1,6 @@
+DB_PATH = 'data/mlb.db'
+RAW_DATA_DIR = 'data/raw'
+CLEAN_DATA_DIR = 'data/clean'
+DROPPED_DATA_DIR = 'data/dropped'
+BASE_URL = 'https://www.baseball-almanac.com/pitching/pigamp4.shtml'
+TITLE = 'Year by Year Leaders for Games Pitched'
