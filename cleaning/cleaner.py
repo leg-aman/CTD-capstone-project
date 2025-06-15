@@ -7,25 +7,15 @@ def clean_data(df):
             'al_year', 'al', 'al_games', 'al_teams',
             'nl_year', 'nl', 'nl_games', 'nl_teams'
         ]
-
         
         df = df[~df['al_year'].isin(['Year', '-', None])]
         df = df[~df['al_year'].str.contains("[a-zA-Z]", na=False)]
-
         
         df = df[~df['al_games'].isin(['-'])]
         df = df[~df['nl_games'].isin(['-'])]
 
-        
-        df = df.dropna(how='all')
-
-        
-        df = df.drop(columns=["nl_year"], errors='ignore')
-
-        
+        df = df.dropna(how='all')        
         df = df.drop_duplicates().reset_index(drop=True)
-
-        
         empty_rows = df[df.isnull().all(axis=1)]
         empty_rows.to_csv(f"{DROPPED_DATA_DIR}/empty_rows.csv", index=False)
 
@@ -39,7 +29,28 @@ def clean_data(df):
         df["nl_games"] = df["nl_games"].astype(int)
         df["nl_teams"] = df["nl_teams"].astype(str).str.strip()
 
-        return df
+        # Extract AL data
+        al_df = pd.DataFrame({
+            'year': df['al_year'],
+            'league': 'AL',
+            'player': df['al'],
+            'games': df['al_games'],
+            'team': df['al_teams']
+        })
+
+        # Extract NL data
+        nl_df = pd.DataFrame({
+            'year': df['nl_year'],
+            'league': 'NL',
+            'player': df['nl'],
+            'games': df['nl_games'],
+            'team': df['nl_teams']
+        })
+
+        # Combine both
+        df_final = pd.concat([al_df, nl_df], ignore_index=True)
+
+        return df_final
 
     except Exception as e:
         print(f"Error during data cleaning: {e}")

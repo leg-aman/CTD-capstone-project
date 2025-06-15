@@ -38,5 +38,7 @@ def main():
     else:
         console.print("⚠️[red]  No cleaned data available.[/red]")
 
+    
+
 if __name__ == "__main__": 
     main()
