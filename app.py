@@ -1,5 +1,6 @@
 from scraping.scraper import scrape_data
 from cleaning.cleaner import clean_data
+from database.save_to_db import save_to_db
 import pandas as pd
 from rich.console import Console
 console = Console()
@@ -19,9 +20,7 @@ def main():
             'nl', 'nl_games', 'nl_teams'
         ]
         df_raw.to_csv(f"{RAW_DATA_DIR}/baseball_data_raw.csv", index=False,header=False)
-        print(f"Data saved to {RAW_DATA_DIR}/baseball_data_raw.csv")
-
-        print("Raw data scraped successfully! \n", df_raw.head())
+        console.print(f"Data saved to {RAW_DATA_DIR}/baseball_data_raw.csv \n", df_raw.head())
     else:
         print("No data scraped.")
 
@@ -33,12 +32,14 @@ def main():
     df_cleaned = clean_data(df_raw_2)
     if df_cleaned is not None and df_cleaned.empty is False:
         df_cleaned.to_csv(f"{CLEAN_DATA_DIR}/baseball_data_cleaned.csv", index=False)
-        print(f"Cleaned data saved to {CLEAN_DATA_DIR}/baseball_data_cleaned.csv")
-        console.print("[green]✅ Data cleaned successfully![/green] \n", df_cleaned.head())
+        console.print("[green]✅ Data cleaned successfully![/green]")
+        console.print(f"Cleaned data saved to {CLEAN_DATA_DIR}/baseball_data_cleaned.csv \n", df_cleaned.head())
     else:
         console.print("⚠️[red]  No cleaned data available.[/red]")
-
+    # Save to database
+    console.print("[bold yellow]Saving cleaned data to the database...[/bold yellow]")
+    save_to_db()
     
-
+# start the app 
 if __name__ == "__main__": 
     main()

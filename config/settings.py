@@ -1,4 +1,4 @@
-DB_PATH = 'data/mlb.db'
+DB_PATH = 'data/db/mlb.db'
 RAW_DATA_DIR = 'data/raw'
 CLEAN_DATA_DIR = 'data/clean'
 DROPPED_DATA_DIR = 'data/dropped'
