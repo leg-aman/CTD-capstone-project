@@ -1,251 +1,251 @@
 year,league,player,games,team
-1901,AL,Joe McGinnity,48,Baltimore
-1902,AL,Cy Young,45,Boston
-1903,AL,Eddie Plank,43,Philadelphia
-1904,AL,Jack Chesbro,55,New York
-1905,AL,Rube Waddell,46,Philadelphia
-1906,AL,Jack Chesbro,49,New York
-1907,AL,Ed Walsh,56,Chicago
-1908,AL,Ed Walsh,66,Chicago
-1909,AL,Frank Smith,51,Chicago
-1910,AL,Jack Coombs,45,Philadelphia
-1911,AL,Ed Walsh,56,Chicago
-1912,AL,Ed Walsh,62,Chicago
-1913,AL,Reb Russell,52,Chicago
-1914,AL,Walter Johnson,51,Washington
-1915,AL,Harry Coveleski,50,Detroit
-1916,AL,Dave Davenport,59,St. Louis
-1917,AL,Dave Danforth,50,Chicago
-1918,AL,Jim Bagby,45,Cleveland
-1919,AL,Jim Shaw,45,Washington
-1920,AL,Jim Bagby,48,Cleveland
-1921,AL,Carl Mays,49,New York
-1922,AL,Eddie Rommel,51,Philadelphia
-1923,AL,Eddie Rommel,56,Philadelphia
-1924,AL,Firpo Marberry,50,Washington
-1925,AL,Firpo Marberry,55,Washington
-1926,AL,Firpo Marberry,64,Washington
-1927,AL,Garland Braxton,58,Washington
-1928,AL,Firpo Marberry,48,Washington
-1929,AL,Firpo Marberry,49,Washington
-1930,AL,Lefty Grove,50,Philadelphia
-1931,AL,Bump Hadley,55,Washington
-1932,AL,Firpo Marberry,54,Washington
-1933,AL,Alvin Crowder,52,Washington
-1934,AL,Jack Russell,54,Washington
-1935,AL,Russ Van Atta,58,New York
-1936,AL,Russ Van Atta,52,St. Louis
-1937,AL,Clint Brown,53,Chicago
-1938,AL,Johnny Humphries,45,Cleveland
-1939,AL,Clint Brown,61,Chicago
-1940,AL,Bob Feller,43,Cleveland
-1941,AL,Bob Feller,44,Cleveland
-1942,AL,Joe Haynes,40,Chicago
-1943,AL,Mace Brown,49,Boston
-1944,AL,Joe Heving,63,Cleveland
-1945,AL,Joe Berry,52,Philadelphia
-1946,AL,Bob Feller,48,Cleveland
-1947,AL,Ed Klieman,58,Cleveland
-1948,AL,Joe Page,55,New York
-1949,AL,Joe Page,60,New York
-1950,AL,Mickey Harris,53,Washington
-1951,AL,Ellis Kinder,63,Boston
-1952,AL,Bill Kennedy,47,Chicago
-1953,AL,Ellis Kinder,69,Boston
-1954,AL,Sonny Dixon,54,Philadelphia
-1955,AL,Ray Narleski,60,Cleveland
-1956,AL,George Zuverink,62,Baltimore
-1957,AL,George Zuverink,56,Baltimore
-1958,AL,Tex Clevenger,55,Washington
-1959,AL,Gerry Staley,67,Chicago
-1960,AL,Mike Fornieles,70,Boston
-1961,AL,Luis Arroyo,65,New York
-1962,AL,Dick Radatz,62,Boston
-1963,AL,Stu Miller,71,Baltimore
-1964,AL,John Wyatt,81,Kansas City
-1965,AL,Eddie Fisher,82,Chicago
-1966,AL,Eddie Fisher,67,Baltimore
-1967,AL,Bob Locker,77,Chicago
-1968,AL,Wilbur Wood,88,Chicago
-1969,AL,Wilbur Wood,76,Chicago
-1970,AL,Wilbur Wood,77,Chicago
-1971,AL,Ken Sanders,83,Milwaukee
-1972,AL,Paul Lindblad,66,Texas
-1973,AL,John Hiller,65,Detroit
-1974,AL,Rollie Fingers,76,Oakland
-1975,AL,Rollie Fingers,75,Oakland
-1976,AL,Bill Campbell,78,Minnesota
-1977,AL,Sparky Lyle,72,New York
-1978,AL,Bob Lacey,74,Oakland
-1979,AL,Mike Marshall,90,Minnesota
-1980,AL,Dan Quisenberry,75,Kansas City
-1981,AL,Doug Corbett,54,Minnesota
-1982,AL,Ed Vande Berg,78,Seattle
-1983,AL,Dan Quisenberry,69,Kansas City
-1984,AL,Willie Hernandez,80,Detroit
-1985,AL,Dan Quisenberry,84,Kansas City
-1986,AL,Mitch Williams,80,Texas
-1987,AL,Mark Eichhorn,89,Toronto
-1988,AL,Chuck Crim,70,Milwaukee
-1989,AL,Chuck Crim,76,Milwaukee
-1990,AL,Bobby Thigpen,77,Chicago
-1991,AL,Duane Ward,81,Toronto
-1992,AL,Kenny Rogers,81,Texas
-1993,AL,Greg Harris,80,Boston
-1994,AL,Bob Wickman,53,New York
-1995,AL,Jesse Orosco,65,Baltimore
-1996,AL,Eddie Guardado,83,Minnesota
-1997,AL,Mike Myers,88,Detroit
-1998,AL,Sean Runyan,88,Detroit
-1999,AL,Buddy Groom,76,Oakland
-2000,AL,Kelly Wunsch,83,Chicago
-2001,AL,Paul Quantrill,80,Toronto
-2002,AL,Billy Koch,84,Oakland
-2003,AL,Trever Miller,79,Toronto
-2004,AL,Paul Quantrill,86,New York
-2005,AL,Mike Timlin,81,Boston
-2006,AL,Scott Proctor,83,New York
-2007,AL,Scott Downs,81,Toronto
-2008,AL,Matt Guerrier,76,Minnesota
-2009,AL,Matt Guerrier,79,Minnesota
-2010,AL,Randy Choate,85,Tampa Bay
-2011,AL,Jose Valverde,75,Detroit
-2012,AL,Boone Logan,80,New York
-2013,AL,Joel Peralta,80,Tampa Bay
-2014,AL,Bryan Shaw,80,Cleveland
-2015,AL,Kevin Jepsen,75,Minnesota
-2016,AL,Bryan Shaw,75,Cleveland
-2017,AL,Peter Moylan,79,Kansas City
-2018,AL,Ryan Pressly,77,Houston
-2019,AL,Yusmeiro Petit,80,Oakland
-2020,AL,Scott Barlow,32,Kansas City
-2021,AL,Bryan Shaw,81,Cleveland
-2022,AL,Adam Cimber,77,Toronto
-2023,AL,Matt Brash,78,Seattle
-2024,AL,T.J. McFarland,79,Oakland
-2025,AL,Greg Weissert,34,Boston
-1901,NL,Bill Donovan,45,Brooklyn
-1902,NL,Vic Willis,51,Boston
-1903,NL,Joe McGinnity,55,New York
-1904,NL,Joe McGinnity,51,New York
-1905,NL,Joe McGinnity,46,New York
-1906,NL,Joe McGinnity,45,New York
-1907,NL,Joe McGinnity,47,New York
-1908,NL,Christy Mathewson,56,New York
-1909,NL,Mordecai Brown,50,Chicago
-1910,NL,Al Mattern,51,Boston
-1911,NL,Mordecai Brown,53,Chicago
-1912,NL,Rube Benton,50,Cincinnati
-1913,NL,Larry Cheney,54,Chicago
-1914,NL,Larry Cheney,50,Chicago
-1915,NL,Tom Hughes,50,Boston
-1916,NL,Lee Meadows,51,St. Louis
-1917,NL,Phil Douglas,51,Chicago
-1918,NL,Burleigh Grimes,40,Brooklyn
-1919,NL,Oscar Tuero,45,St. Louis
-1920,NL,Jesse Haines,47,St. Louis
-1921,NL,Jack Scott,47,Boston
-1922,NL,Lou North,53,St. Louis
-1923,NL,Claude Jonnard,45,New York
-1924,NL,Ray Kremer,41,Pittsburgh
-1925,NL,Johnny Morrison,44,Pittsburgh
-1926,NL,Jack Scott,50,New York
-1927,NL,Charlie Root,48,Chicago
-1928,NL,Burleigh Grimes,48,Pittsburgh
-1929,NL,Guy Bush,50,Chicago
-1930,NL,Hal Elliott,48,Philadelphia
-1931,NL,Jumbo Elliott,52,Philadelphia
-1932,NL,Larry French,47,Pittsburgh
-1933,NL,Dizzy Dean,48,St. Louis
-1934,NL,Curt Davis,51,Philadelphia
-1935,NL,Orville Jorgens,53,Philadelphia
-1936,NL,Dizzy Dean,51,St. Louis
-1937,NL,Hugh Mulcahy,56,Philadelphia
-1938,NL,Mace Brown,51,Pittsburgh
-1939,NL,Clyde Shoun,53,St. Louis
-1940,NL,Clyde Shoun,54,St. Louis
-1941,NL,Kirby Higbe,48,Brooklyn
-1942,NL,Ace Adams,61,New York
-1943,NL,Ace Adams,70,New York
-1944,NL,Ace Adams,65,New York
-1945,NL,Andy Karl,67,Philadelphia
-1946,NL,Ken Trinkle,48,New York
-1947,NL,Ken Trinkle,62,New York
-1948,NL,Harry Gumbert,61,Cincinnati
-1949,NL,Ted Wilks,59,St. Louis
-1950,NL,Jim Konstanty,74,Philadelphia
-1951,NL,Ted Wilks,65,Pittsburgh
-1952,NL,Hoyt Wilhelm,71,New York
-1953,NL,Hoyt Wilhelm,68,New York
-1954,NL,Jim Hughes,60,Brooklyn
-1955,NL,Clem Labine,60,Brooklyn
-1956,NL,Roy Face,68,Pittsburgh
-1957,NL,Turk Lown,67,Chicago
-1958,NL,Don Elston,69,Chicago
-1959,NL,Don Elston,65,Chicago
-1960,NL,Roy Face,68,Pittsburgh
-1961,NL,Jack Baldschun,65,Philadelphia
-1962,NL,Ron Perranoski,70,Los Angeles
-1963,NL,Ron Perranoski,69,Los Angeles
-1964,NL,Bob Miller,74,Los Angeles
-1965,NL,Ted Abernathy,84,Chicago
-1966,NL,Clay Carroll,73,Atlanta
-1967,NL,Ted Abernathy,70,Cincinnati
-1968,NL,Ted Abernathy,78,Cincinnati
-1969,NL,Wayne Granger,90,Cincinnati
-1970,NL,Ron Herbel,76,New York
-1971,NL,Wayne Granger,70,Cincinnati
-1972,NL,Clay Carroll,65,Cincinnati
-1973,NL,Mike Marshall,92,Montreal
-1974,NL,Mike Marshall,106,Los Angeles
-1975,NL,Gene Garber,71,Philadelphia
-1976,NL,Dale Murray,81,Montreal
-1977,NL,Rollie Fingers,78,San Diego
-1978,NL,Kent Tekulve,91,Pittsburgh
-1979,NL,Kent Tekulve,94,Pittsburgh
-1980,NL,Dick Tidrow,84,Chicago
-1981,NL,Gary Lucas,57,San Diego
-1982,NL,Kent Tekulve,85,Pittsburgh
-1983,NL,Bill Campbell,82,Chicago
-1984,NL,Ted Power,78,Cincinnati
-1985,NL,Tim Burke,78,Montreal
-1986,NL,Craig Lefferts,83,San Diego
-1987,NL,Kent Tekulve,90,Philadelphia
-1988,NL,Rob Murphy,76,Cincinnati
-1989,NL,Mitch Williams,76,Chicago
-1990,NL,Juan Agosto,82,Houston
-1991,NL,Barry Jones,77,Montreal
-1992,NL,Joe Boever,81,Houston
-1993,NL,Michael Jackson,81,San Francisco
-1994,NL,Steve Reed,61,Colorado
-1995,NL,Curt Leskanic,76,Colorado
-1996,NL,Brad Clontz,81,Atlanta
-1997,NL,Julian Tavarez,89,San Francisco
-1998,NL,Rod Beck,81,Chicago
-1999,NL,Steve Kline,82,Montreal
-2000,NL,Steve Kline,83,Montreal
-2001,NL,Steve Kline,89,St. Louis
-2002,NL,Paul Quantrill,86,Los Angeles
-2003,NL,Paul Quantrill,89,Los Angeles
-2004,NL,Jim Brower,89,San Francisco
-2005,NL,Scott Eyre,86,San Francisco
-2006,NL,Salomon Torres,94,Pittsburgh
-2007,NL,Jon Rauch,88,Washington
-2008,NL,Pedro Feliciano,86,New York
-2009,NL,Pedro Feliciano,88,New York
-2010,NL,Pedro Feliciano,92,New York
-2011,NL,Jonny Venters,85,Atlanta
-2012,NL,Matt Belisle,80,Colorado
-2013,NL,Brad Ziegler,78,Arizona
-2014,NL,Will Smith,78,Milwaukee
-2015,NL,Kevin Siegrist,81,St. Louis
-2016,NL,Brad Hand,82,San Diego
-2017,NL,Corey Knebel,76,Milwaukee
-2018,NL,Brad Ziegler,82,Arizona
-2019,NL,Alex Claudio,83,Milwaukee
-2020,NL,Tyler Rogers,29,San Francisco
-2021,NL,Tyler Rogers,80,San Francisco
-2022,NL,John Brebbia,76,San Francisco
-2023,NL,Miguel Castro,75,Arizona
-2024,NL,Tyler Rogers,77,San Francisco
-2025,NL,Jason Adam,35,San Diego
+1970,AL,joe mcginnity,48,baltimore
+1970,AL,cy young,45,boston
+1970,AL,eddie plank,43,philadelphia
+1970,AL,jack chesbro,55,new york
+1970,AL,rube waddell,46,philadelphia
+1970,AL,jack chesbro,49,new york
+1970,AL,ed walsh,56,chicago
+1970,AL,ed walsh,66,chicago
+1970,AL,frank smith,51,chicago
+1970,AL,jack coombs,45,philadelphia
+1970,AL,ed walsh,56,chicago
+1970,AL,ed walsh,62,chicago
+1970,AL,reb russell,52,chicago
+1970,AL,walter johnson,51,washington
+1970,AL,harry coveleski,50,detroit
+1970,AL,dave davenport,59,st. louis
+1970,AL,dave danforth,50,chicago
+1970,AL,jim bagby,45,cleveland
+1970,AL,jim shaw,45,washington
+1970,AL,jim bagby,48,cleveland
+1970,AL,carl mays,49,new york
+1970,AL,eddie rommel,51,philadelphia
+1970,AL,eddie rommel,56,philadelphia
+1970,AL,firpo marberry,50,washington
+1970,AL,firpo marberry,55,washington
+1970,AL,firpo marberry,64,washington
+1970,AL,garland braxton,58,washington
+1970,AL,firpo marberry,48,washington
+1970,AL,firpo marberry,49,washington
+1970,AL,lefty grove,50,philadelphia
+1970,AL,bump hadley,55,washington
+1970,AL,firpo marberry,54,washington
+1970,AL,alvin crowder,52,washington
+1970,AL,jack russell,54,washington
+1970,AL,russ van atta,58,new york
+1970,AL,russ van atta,52,st. louis
+1970,AL,clint brown,53,chicago
+1970,AL,johnny humphries,45,cleveland
+1970,AL,clint brown,61,chicago
+1970,AL,bob feller,43,cleveland
+1970,AL,bob feller,44,cleveland
+1970,AL,joe haynes,40,chicago
+1970,AL,mace brown,49,boston
+1970,AL,joe heving,63,cleveland
+1970,AL,joe berry,52,philadelphia
+1970,AL,bob feller,48,cleveland
+1970,AL,ed klieman,58,cleveland
+1970,AL,joe page,55,new york
+1970,AL,joe page,60,new york
+1970,AL,mickey harris,53,washington
+1970,AL,ellis kinder,63,boston
+1970,AL,bill kennedy,47,chicago
+1970,AL,ellis kinder,69,boston
+1970,AL,sonny dixon,54,philadelphia
+1970,AL,ray narleski,60,cleveland
+1970,AL,george zuverink,62,baltimore
+1970,AL,george zuverink,56,baltimore
+1970,AL,tex clevenger,55,washington
+1970,AL,gerry staley,67,chicago
+1970,AL,mike fornieles,70,boston
+1970,AL,luis arroyo,65,new york
+1970,AL,dick radatz,62,boston
+1970,AL,stu miller,71,baltimore
+1970,AL,john wyatt,81,kansas city
+1970,AL,eddie fisher,82,chicago
+1970,AL,eddie fisher,67,baltimore
+1970,AL,bob locker,77,chicago
+1970,AL,wilbur wood,88,chicago
+1970,AL,wilbur wood,76,chicago
+1970,AL,wilbur wood,77,chicago
+1970,AL,ken sanders,83,milwaukee
+1970,AL,paul lindblad,66,texas
+1970,AL,john hiller,65,detroit
+1970,AL,rollie fingers,76,oakland
+1970,AL,rollie fingers,75,oakland
+1970,AL,bill campbell,78,minnesota
+1970,AL,sparky lyle,72,new york
+1970,AL,bob lacey,74,oakland
+1970,AL,mike marshall,90,minnesota
+1970,AL,dan quisenberry,75,kansas city
+1970,AL,doug corbett,54,minnesota
+1970,AL,ed vande berg,78,seattle
+1970,AL,dan quisenberry,69,kansas city
+1970,AL,willie hernandez,80,detroit
+1970,AL,dan quisenberry,84,kansas city
+1970,AL,mitch williams,80,texas
+1970,AL,mark eichhorn,89,toronto
+1970,AL,chuck crim,70,milwaukee
+1970,AL,chuck crim,76,milwaukee
+1970,AL,bobby thigpen,77,chicago
+1970,AL,duane ward,81,toronto
+1970,AL,kenny rogers,81,texas
+1970,AL,greg harris,80,boston
+1970,AL,bob wickman,53,new york
+1970,AL,jesse orosco,65,baltimore
+1970,AL,eddie guardado,83,minnesota
+1970,AL,mike myers,88,detroit
+1970,AL,sean runyan,88,detroit
+1970,AL,buddy groom,76,oakland
+1970,AL,kelly wunsch,83,chicago
+1970,AL,paul quantrill,80,toronto
+1970,AL,billy koch,84,oakland
+1970,AL,trever miller,79,toronto
+1970,AL,paul quantrill,86,new york
+1970,AL,mike timlin,81,boston
+1970,AL,scott proctor,83,new york
+1970,AL,scott downs,81,toronto
+1970,AL,matt guerrier,76,minnesota
+1970,AL,matt guerrier,79,minnesota
+1970,AL,randy choate,85,tampa bay
+1970,AL,jose valverde,75,detroit
+1970,AL,boone logan,80,new york
+1970,AL,joel peralta,80,tampa bay
+1970,AL,bryan shaw,80,cleveland
+1970,AL,kevin jepsen,75,minnesota
+1970,AL,bryan shaw,75,cleveland
+1970,AL,peter moylan,79,kansas city
+1970,AL,ryan pressly,77,houston
+1970,AL,yusmeiro petit,80,oakland
+1970,AL,scott barlow,32,kansas city
+1970,AL,bryan shaw,81,cleveland
+1970,AL,adam cimber,77,toronto
+1970,AL,matt brash,78,seattle
+1970,AL,t.j. mcfarland,79,oakland
+1970,AL,greg weissert,35,boston
+1901,NL,bill donovan,45,Brooklyn
+1902,NL,vic willis,51,Boston
+1903,NL,joe mcginnity,55,New York
+1904,NL,joe mcginnity,51,New York
+1905,NL,joe mcginnity,46,New York
+1906,NL,joe mcginnity,45,New York
+1907,NL,joe mcginnity,47,New York
+1908,NL,christy mathewson,56,New York
+1909,NL,mordecai brown,50,Chicago
+1910,NL,al mattern,51,Boston
+1911,NL,mordecai brown,53,Chicago
+1912,NL,rube benton,50,Cincinnati
+1913,NL,larry cheney,54,Chicago
+1914,NL,larry cheney,50,Chicago
+1915,NL,tom hughes,50,Boston
+1916,NL,lee meadows,51,St. Louis
+1917,NL,phil douglas,51,Chicago
+1918,NL,burleigh grimes,40,Brooklyn
+1919,NL,oscar tuero,45,St. Louis
+1920,NL,jesse haines,47,St. Louis
+1921,NL,jack scott,47,Boston
+1922,NL,lou north,53,St. Louis
+1923,NL,claude jonnard,45,New York
+1924,NL,ray kremer,41,Pittsburgh
+1925,NL,johnny morrison,44,Pittsburgh
+1926,NL,jack scott,50,New York
+1927,NL,charlie root,48,Chicago
+1928,NL,burleigh grimes,48,Pittsburgh
+1929,NL,guy bush,50,Chicago
+1930,NL,hal elliott,48,Philadelphia
+1931,NL,jumbo elliott,52,Philadelphia
+1932,NL,larry french,47,Pittsburgh
+1933,NL,dizzy dean,48,St. Louis
+1934,NL,curt davis,51,Philadelphia
+1935,NL,orville jorgens,53,Philadelphia
+1936,NL,dizzy dean,51,St. Louis
+1937,NL,hugh mulcahy,56,Philadelphia
+1938,NL,mace brown,51,Pittsburgh
+1939,NL,clyde shoun,53,St. Louis
+1940,NL,clyde shoun,54,St. Louis
+1941,NL,kirby higbe,48,Brooklyn
+1942,NL,ace adams,61,New York
+1943,NL,ace adams,70,New York
+1944,NL,ace adams,65,New York
+1945,NL,andy karl,67,Philadelphia
+1946,NL,ken trinkle,48,New York
+1947,NL,ken trinkle,62,New York
+1948,NL,harry gumbert,61,Cincinnati
+1949,NL,ted wilks,59,St. Louis
+1950,NL,jim konstanty,74,Philadelphia
+1951,NL,ted wilks,65,Pittsburgh
+1952,NL,hoyt wilhelm,71,New York
+1953,NL,hoyt wilhelm,68,New York
+1954,NL,jim hughes,60,Brooklyn
+1955,NL,clem labine,60,Brooklyn
+1956,NL,roy face,68,Pittsburgh
+1957,NL,turk lown,67,Chicago
+1958,NL,don elston,69,Chicago
+1959,NL,don elston,65,Chicago
+1960,NL,roy face,68,Pittsburgh
+1961,NL,jack baldschun,65,Philadelphia
+1962,NL,ron perranoski,70,Los Angeles
+1963,NL,ron perranoski,69,Los Angeles
+1964,NL,bob miller,74,Los Angeles
+1965,NL,ted abernathy,84,Chicago
+1966,NL,clay carroll,73,Atlanta
+1967,NL,ted abernathy,70,Cincinnati
+1968,NL,ted abernathy,78,Cincinnati
+1969,NL,wayne granger,90,Cincinnati
+1970,NL,ron herbel,76,New York
+1971,NL,wayne granger,70,Cincinnati
+1972,NL,clay carroll,65,Cincinnati
+1973,NL,mike marshall,92,Montreal
+1974,NL,mike marshall,106,Los Angeles
+1975,NL,gene garber,71,Philadelphia
+1976,NL,dale murray,81,Montreal
+1977,NL,rollie fingers,78,San Diego
+1978,NL,kent tekulve,91,Pittsburgh
+1979,NL,kent tekulve,94,Pittsburgh
+1980,NL,dick tidrow,84,Chicago
+1981,NL,gary lucas,57,San Diego
+1982,NL,kent tekulve,85,Pittsburgh
+1983,NL,bill campbell,82,Chicago
+1984,NL,ted power,78,Cincinnati
+1985,NL,tim burke,78,Montreal
+1986,NL,craig lefferts,83,San Diego
+1987,NL,kent tekulve,90,Philadelphia
+1988,NL,rob murphy,76,Cincinnati
+1989,NL,mitch williams,76,Chicago
+1990,NL,juan agosto,82,Houston
+1991,NL,barry jones,77,Montreal
+1992,NL,joe boever,81,Houston
+1993,NL,michael jackson,81,San Francisco
+1994,NL,steve reed,61,Colorado
+1995,NL,curt leskanic,76,Colorado
+1996,NL,brad clontz,81,Atlanta
+1997,NL,julian tavarez,89,San Francisco
+1998,NL,rod beck,81,Chicago
+1999,NL,steve kline,82,Montreal
+2000,NL,steve kline,83,Montreal
+2001,NL,steve kline,89,St. Louis
+2002,NL,paul quantrill,86,Los Angeles
+2003,NL,paul quantrill,89,Los Angeles
+2004,NL,jim brower,89,San Francisco
+2005,NL,scott eyre,86,San Francisco
+2006,NL,salomon torres,94,Pittsburgh
+2007,NL,jon rauch,88,Washington
+2008,NL,pedro feliciano,86,New York
+2009,NL,pedro feliciano,88,New York
+2010,NL,pedro feliciano,92,New York
+2011,NL,jonny venters,85,Atlanta
+2012,NL,matt belisle,80,Colorado
+2013,NL,brad ziegler,78,Arizona
+2014,NL,will smith,78,Milwaukee
+2015,NL,kevin siegrist,81,St. Louis
+2016,NL,brad hand,82,San Diego
+2017,NL,corey knebel,76,Milwaukee
+2018,NL,brad ziegler,82,Arizona
+2019,NL,alex claudio,83,Milwaukee
+2020,NL,tyler rogers,29,San Francisco
+2021,NL,tyler rogers,80,San Francisco
+2022,NL,john brebbia,76,San Francisco
+2023,NL,miguel castro,75,Arizona
+2024,NL,tyler rogers,77,San Francisco
+2025,NL,jason adam,35,San Diego

@@ -1,6 +1,7 @@
 from scraping.scraper import scrape_data
 from cleaning.cleaner import clean_data
-from database.save_to_db import save_to_db
+from database.db_handler import db_handler
+from database.cli_menu import cli_menu
 import pandas as pd
 from rich.console import Console
 console = Console()
@@ -19,6 +20,8 @@ def main():
             'al_year', 'al', 'al_games', 'al_teams', 'nl_year',
             'nl', 'nl_games', 'nl_teams'
         ]
+        console.print("[green]✅ Data scraped successfully![/green]")
+        console.print("[yellow]Saving raw data to CSV file...[/yellow]")
         df_raw.to_csv(f"{RAW_DATA_DIR}/baseball_data_raw.csv", index=False,header=False)
         console.print(f"Data saved to {RAW_DATA_DIR}/baseball_data_raw.csv \n", df_raw.head())
     else:
@@ -38,7 +41,11 @@ def main():
         console.print("⚠️[red]  No cleaned data available.[/red]")
     # Save to database
     console.print("[bold yellow]Saving cleaned data to the database...[/bold yellow]")
-    save_to_db()
+    save_to_db = db_handler()
+    if save_to_db:
+        menu  = input("Do you want to view database cli menu? (yes/no): ").strip().lower()
+        if menu == 'yes':
+            cli_menu()
     
 # start the app 
 if __name__ == "__main__": 

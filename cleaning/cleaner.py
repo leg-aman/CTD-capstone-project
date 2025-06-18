@@ -29,6 +29,10 @@ def clean_data(df):
         df["nl_games"] = df["nl_games"].astype(int)
         df["nl_teams"] = df["nl_teams"].astype(str).str.strip()
 
+        df["al"] = df["al"].str.lower()
+        df["nl"] = df["nl"].str.lower()
+        df["al_teams"] = df["al_teams"].str.lower()
+
         # Extract AL data
         al_df = pd.DataFrame({
             'year': df['al_year'],
@@ -49,6 +53,10 @@ def clean_data(df):
 
         # Combine both
         df_final = pd.concat([al_df, nl_df], ignore_index=True)
+       
+
+        df_final['year'] = pd.to_datetime(df_final['year'])
+        df_final['year'] = df_final['year'].dt.year
 
         return df_final
 
