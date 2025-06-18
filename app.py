@@ -15,6 +15,7 @@ def main():
 
     df_raw = scrape_data(BASE_URL)
     if df_raw is not None and df_raw.empty is False:
+        
         # Save the DataFrame to a CSV file
         df_raw.columns = [ 
             'al_year', 'al', 'al_games', 'al_teams', 'nl_year',
@@ -39,6 +40,7 @@ def main():
         console.print(f"Cleaned data saved to {CLEAN_DATA_DIR}/baseball_data_cleaned.csv \n", df_cleaned.head())
     else:
         console.print("⚠️[red]  No cleaned data available.[/red]")
+        
     # Save to database
     console.print("[bold yellow]Saving cleaned data to the database...[/bold yellow]")
     save_to_db = db_handler()
