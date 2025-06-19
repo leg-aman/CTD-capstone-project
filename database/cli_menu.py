@@ -6,7 +6,7 @@ def cli_menu():
     while True:
         conn, cursor = db_handler.create_db_connection()
         print("\n=====================================")
-        print(" n Leaders for Games Pitched")
+        print("  Leaders for Games Pitched")
         print("=====================================")
         print("\nChoose service you want to use : ")
         print("""

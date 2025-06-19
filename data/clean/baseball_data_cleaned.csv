@@ -123,7 +123,7 @@ year,league,player,games,team
 1970,AL,adam cimber,77,toronto
 1970,AL,matt brash,78,seattle
 1970,AL,t.j. mcfarland,79,oakland
-1970,AL,greg weissert,35,boston
+1970,AL,greg weissert,36,boston
 1901,NL,bill donovan,45,Brooklyn
 1902,NL,vic willis,51,Boston
 1903,NL,joe mcginnity,55,New York
@@ -248,4 +248,4 @@ year,league,player,games,team
 2022,NL,john brebbia,76,San Francisco
 2023,NL,miguel castro,75,Arizona
 2024,NL,tyler rogers,77,San Francisco
-2025,NL,jason adam,35,San Diego
+2025,NL,jason adam,36,San Diego

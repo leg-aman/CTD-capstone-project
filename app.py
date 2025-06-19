@@ -1,54 +1,45 @@
 from scraping.scraper import scrape_data
-from cleaning.cleaner import clean_data
+from config.settings import RAW_DATA_DIR, BASE_URL
+
+from data_cleaning.data_cleaning import clean_data
 from database.db_handler import db_handler
 from database.cli_menu import cli_menu
+from saving_to_csv import save_raw_data, save_cleaned_data
+
 import pandas as pd
 from rich.console import Console
+
 console = Console()
 
-from config.settings import DB_PATH, RAW_DATA_DIR, CLEAN_DATA_DIR, BASE_URL
-
 def main():
-
-    # scraping data 
     console.print("[bold yellow]Starting the data scraping process...[/bold yellow]")
 
     df_raw = scrape_data(BASE_URL)
-    if df_raw is not None and df_raw.empty is False:
-        
-        # Save the DataFrame to a CSV file
-        df_raw.columns = [ 
+    if df_raw is not None and not df_raw.empty:
+        # Rename columns
+        df_raw.columns = [
             'al_year', 'al', 'al_games', 'al_teams', 'nl_year',
             'nl', 'nl_games', 'nl_teams'
         ]
         console.print("[green]✅ Data scraped successfully![/green]")
-        console.print("[yellow]Saving raw data to CSV file...[/yellow]")
-        df_raw.to_csv(f"{RAW_DATA_DIR}/baseball_data_raw.csv", index=False,header=False)
-        console.print(f"Data saved to {RAW_DATA_DIR}/baseball_data_raw.csv \n", df_raw.head())
-    else:
-        print("No data scraped.")
 
-    # Clean the data
-    console.print("[yellow]Cleaning data...[/yellow]")
+        save_raw_data(df_raw)
 
-    df_raw_1 = pd.read_csv(f"{RAW_DATA_DIR}/baseball_data_raw.csv")
-    df_raw_2 = pd.DataFrame(df_raw_1)
-    df_cleaned = clean_data(df_raw_2)
-    if df_cleaned is not None and df_cleaned.empty is False:
-        df_cleaned.to_csv(f"{CLEAN_DATA_DIR}/baseball_data_cleaned.csv", index=False)
-        console.print("[green]✅ Data cleaned successfully![/green]")
-        console.print(f"Cleaned data saved to {CLEAN_DATA_DIR}/baseball_data_cleaned.csv \n", df_cleaned.head())
+        # Read back and clean data
+        df_raw_read = pd.read_csv(f"{RAW_DATA_DIR}/baseball_data_raw.csv")
+        df_cleaned = clean_data(df_raw_read)
+
+        if df_cleaned is not None and not df_cleaned.empty:
+            save_cleaned_data(df_cleaned)
+        else:
+            console.print("⚠️[red] No cleaned data available.[/red]")
     else:
-        console.print("⚠️[red]  No cleaned data available.[/red]")
-        
+        console.print("[red]No data scraped.[/red]")
+
     # Save to database
     console.print("[bold yellow]Saving cleaned data to the database...[/bold yellow]")
     save_to_db = db_handler()
     if save_to_db:
-        menu  = input("Do you want to view database cli menu? (yes/no): ").strip().lower()
+        menu = input("Do you want to view database CLI menu? (yes/no): ").strip().lower()
         if menu == 'yes':
             cli_menu()
-    
-# start the app 
-if __name__ == "__main__": 
-    main()
