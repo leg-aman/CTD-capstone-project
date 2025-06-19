@@ -1,6 +1,9 @@
 CTD-CAPSTONE PROJECT: Data Analysis and Visualization
  - web scraping and dashboard project
 
+ - Overview:
+   This project involves web scraping MLB baseball data, cleaning it, storing it in a database, and creating a Streamlit dashboard for data visualization.
+
  - File tree:
     CTD-CAPSTONE-PROJECT/
     - config/
