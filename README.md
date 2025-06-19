@@ -5,28 +5,27 @@ This project involves web scraping MLB baseball data, cleaning it, storing it in
 
 ## Project Structure
 
+```plaintext
 CTD-CAPSTONE-PROJECT/
 ├── config/
-│ └── settings.py
+│   └── settings.py
 ├── dashboard/
-│ └── streamlit_app.py
+│   └── streamlit_app.py
 ├── data/
-│ ├── clean/
-│ │ └── baseball_data_cleaned.csv
-│ ├── db/
-│ │ └── mlb.db
-│ ├── dropped/
-│ │ └── dropped_data.csv
-│ └── raw/
-│ └── baseball_data_raw.csv
+│   ├── clean/
+│   │   └── baseball_data_cleaned.csv
+│   ├── db/
+│   │   └── mlb.db
+│   ├── dropped/
+│   │   └── dropped_data.csv
+│   └── raw/
+│       └── baseball_data_raw.csv
 ├── data_cleaning/
-│ └── data_cleaning.py
+│   └── data_cleaning.py
 ├── database/
-│ ├── cli_menu.py
-│ └── db_handler.py
+│   ├── cli_menu.py
+│   └── db_handler.py
 ├── web_scraping/
-│ └── web_scraper.py
+│   └── web_scraper.py
 ├── requirements.txt
 └── README.md
-jlsdjlk
-skhskjdsk
